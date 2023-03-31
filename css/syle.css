@@ -92,7 +92,7 @@ span {
 }
 
 .profile-pic img {
-    margin-left: 10px;
+    margin-left: 30px;
     width: 40vh;
     border-radius: 50px;
     animation: float 5s ease-in-out infinite;
@@ -131,6 +131,57 @@ span {
     color: aqua;
     background: #000;
     box-shadow: 0 0 1rem aqua;
+}
+
+/* About Section  */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 3.3rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.about-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.about-resume h3 {
+    font-size: 24px;
+}
+
+.btn-resume {
+    display: block;
+    background: aqua;
+    margin: 2rem auto;
+    padding: 1rem 2.5rem;
+    border-radius: 1.3rem;
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s ease;
+    width: 140px;
+    text-align: center;
+}
+
+.btn-resume:hover {
+    color: aqua;
+    background: #000;
+    box-shadow: 0 0 1rem aqua;
+}
+
+.about-text p {
+    font-size: 1.8rem;
+    justify-content: center;
+    text-align: justify;
 }
 
 /* Skills Section */
