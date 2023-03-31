@@ -40,7 +40,99 @@ body {
     z-index: 1;
 }
 
+.logo {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: aqua;
+}
+
+.menu-bar a {
+    font-size: 1.5rem;
+    margin-left: 3.5rem;
+    transition: 0.4s ease;
+}
+
+.menu-bar a:hover {
+    color: aqua;
+}
+
+#menu-btn {
+    font-size: 3rem;
+    display: none;
+}
+
+section {
+    padding: 10rem 10%;
+    min-height: 100vh;
+}
+
 /* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-bio h3 {
+    font-size: 2.5rem;
+}
+
+span {
+    color: aqua;
+}
+
+.home-bio h1 {
+    font-size: 3.5rem;
+    line-height: 1.4;
+}
+
+.home-bio p {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.profile-pic img {
+    margin-left: 10px;
+    width: 40vh;
+    border-radius: 50px;
+    animation: float 5s ease-in-out infinite;
+}
+
+.social-media a {
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 2.2rem;
+    margin: 1rem 1rem 2rem 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.4 ease;
+}
+
+.social-media a:hover {
+    color: aqua;
+    box-shadow: 0 0 1rem aqua;
+}
+
+.btn {
+    display: inline-block;
+    background: aqua;
+    margin: 2rem 0;
+    padding: 1rem 2.5rem;
+    border-radius: 1.3rem;
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    color: aqua;
+    background: #000;
+    box-shadow: 0 0 1rem aqua;
+}
+
 /* Skills Section */
 /* Blog Section */
 /* Contact Section  */
