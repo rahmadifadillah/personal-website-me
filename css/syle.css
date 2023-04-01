@@ -217,7 +217,7 @@ span {
 
 .skill-card:hover {
     border-radius: 1rem solid;
-    transform: scale(1.5s);
+    transform: scale(1.2);
 }
 
 .skill-card .bx {
