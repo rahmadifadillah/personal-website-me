@@ -312,6 +312,43 @@ span {
 }
 
 /* Contact Section  */
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacts-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    font-size: 400;
+}
+
+.contact-card li {
+    list-style: none;
+}
+
+.contact-card h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2;
+}
+
 /* Footer Section  */
 .footer {
     padding: 2rem 10%;
