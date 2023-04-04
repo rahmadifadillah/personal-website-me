@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/syle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Build a video upload and compression app with Multer and React Native</title>
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            Rahmadi..
+        </a>
+        <i class='bx bx-menu' id="menu-btn"></i>
+        <nav class="menu-bar">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/skills.html">Skills</a>
+            <a href="/about.html" class="active">Blogs</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Blog Content  -->
+    <section class="blog-content" id="blog-content">
+        <div class="heading">
+            <h2>My <span>Blog</span></h2>
+        </div>
+        <div class="blog-content-items">
+            <div class="blog-title">
+                <img src="/assets/img/blog-pic1.jpeg" />
+                <h3>Build a video upload and compression app with Multer and React Native</h3>
+            </div>
+        </div>
+        <div class="blog-text">
+            <br>
+            <p>React Native is a mobile app development framework that allows developers to build apps that render
+                natively in Android and iOS. The principle of “code once, run everywhere” is an inherent trait of the
+                framework. React Native also shares many similarities with React, so developers who work in React can
+                quickly pick up React Native.
+            </p>
+            <br>
+            <p>In addition to all these great features, it's all JavaScript under the hood. JavaScript can be used to
+                write backend code in Node.js. Therefore, JavaScript developers are in a unique position of being able
+                to build apps, web apps, and server-side code.
+            </p>
+            <br>
+            <p>In this guide, we’ll build a full-stack app for uploading videos on React Native to Firebase using
+                Multer, a Node.js middleware that handles file uploads.</p>
+            <br>
+            <h3>Setting up Firebase</h3>
+            <br>
+            <p>Firebase is a Google backed app development platform. It provides several services for building and
+                scaling apps, including a real-time database, authentication, and hosting. The first step of our
+                tutorial is creating a Firebase account, if you don’t already have one. Once you’ve done that, click on
+                the Create a Project button Give the project a name, which will be used later to identify the storage
+                bucket in use. Once you’ve created your project, you need to choose the test environment. Please note
+                that when deploying to production, you will need to choose a production environment and restrict access
+                to your files. On the Project settings dashboard, click on the Service accounts tab and generate private
+                keys.</p><br>
+            <h3>Setting up the backend Node.js server</h3><br>
+            <p>The backend will hold the API logic that will interface with React Native. The API will have two
+                endpoints; one for retrieving all video files from Firebase and one for uploading images to Firebase.
+                The controllers folder holds the business logic for handling uploads and retrieval of videos. The routes
+                folder specifies the structure of the Express route that will direct traffic to the right controller.
+                package.json will contain the version used for all our dependencies, and server.js will be the entry
+                point that spins up an Express server and handles route requests. Finally, serviceAccountKey.json holds
+                the Firebase config we downloaded earlier. The above function utilizes the Multer upload middleware to
+                process the incoming file and store it as a buffer in memory. Errors on uploading are logged to the
+                console. On successful upload, the buffer is saved to a file on the file system with a temporary name.
+            </p><br>
+            <h3>Conclusion</h3>
+            <br>
+            <p>In this article, we explored how to upload videos from a React Native app. React Native is a powerful
+                tool when building cross-platform tools. Using the same codebase, we can have two separate apps running
+                on different operating systems. Learning React Native is a superpower in itself. The full code for this
+                project is available on GitHub.</p>
+            <br>
+            <a href="/blog.html" class="btn-blog"><i class='bx bx-arrow-back'> Back</i></a>
+        </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <footer class="footer">
+        <div class="social-media">
+            <hr>
+            <a href="https://www.linkedin.com/in/rahmadi-fadillah-a73222222/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/rahmadi.fadillah/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/rahmadifadillah"><i class='bx bxl-github'></i></a>
+            <a href="https://www.youtube.com/@dealsmusik"><i class='bx bxl-youtube'></i></a>
+            <p>Copyright &copy; 2023 Rahmadi Fadillah || Software Engineer
+                <br>All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

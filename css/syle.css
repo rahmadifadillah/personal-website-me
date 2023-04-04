@@ -315,6 +315,68 @@ span {
     box-shadow: 0 0 2rem aqua;
 }
 
+/* Blog Content  */
+.blog-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-content-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.blog-title img {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 2.5rem;
+    width: 100vh;
+    border-radius: 50px;
+}
+
+.blog-title h3 {
+    color: aqua;
+    font-size: 24px;
+}
+
+.blog-text p {
+    font-size: 1.8rem;
+    justify-content: center;
+    text-align: justify;
+}
+
+.blog-text h3 {
+    font-size: 24px;
+    color: aqua;
+}
+
+
+.btn-blog {
+    display: flex;
+    position: absolute;
+    background: aqua;
+    margin: 2rem auto;
+    padding: 1rem 2.5rem;
+    border-radius: 1.3rem;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s ease;
+    width: 140px;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-blog:hover {
+    color: aqua;
+    background: #000;
+    box-shadow: 0 0 1rem aqua;
+}
+
 /* Contact Section  */
 .contacts {
     display: flex;
@@ -364,3 +426,5 @@ hr {
     margin: 1rem;
     border-bottom: #FFF thin solid;
 }
+
+/* Responsive Css  */
