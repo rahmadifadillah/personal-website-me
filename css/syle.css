@@ -52,6 +52,10 @@ body {
     transition: 0.4s ease;
 }
 
+.menu-bar a.active {
+    color: aqua;
+}
+
 .menu-bar a:hover {
     color: aqua;
 }
