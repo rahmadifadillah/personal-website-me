@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/syle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>How to create a double border in CSS</title>
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="/index.html" class="logo">
+            Rahmadi..
+        </a>
+        <i class="bx bx-menu" id="menu-btn"></i>
+        <nav class="menu-bar">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/skills.html">Skills</a>
+            <a href="/blog.html" class="active">Blogs</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Blog Content  -->
+    <section class="blog-content" id="blog-content">
+        <div class="heading">
+            <h2>My <span>Blog</span></h2>
+        </div>
+        <div class="blog-content-items">
+            <div class="blog-title">
+                <img src="/assets/img/blog-pic3.jpeg" />
+                <h3>How to create a double border in CSS</h3>
+            </div>
+        </div>
+        <div class="blog-text">
+            <br>
+            <p>An element’s border can be set using the border shortcut property in CSS. Additionally, we can use CSS
+                border properties to define the style, width, and color of an element’s border.
+
+                There are three CSS border properties that may be changed: border-color, border-style, and border-width.
+                border-style and border-width specify the color and width of a border; border-style specifies whether a
+                border should be solid, dashed, double, or have some other styling.
+
+                In this article, we’ll review six different CSS methods for creating a double-border effect on a webpage
+                element.</p><br>
+            <h3>Styling with the border-style property</h3>
+            <p>For the first illustration, let’s use the box-1 element. Using the border-style property with a double
+                keyword value is a conventional method for creating a double line in CSS. The border-style CSS property
+                allows us to set the line style of an element on all four sides of the box. This property can be
+                assigned several keyword values.
+
+                To create a double border, the double keyword value is used. This automatically creates padding between
+                the two border lines. We can also use border-[left/right/top/bottom] to create a double-border style on
+                a specific side of an element.
+
+                Here’s our double-border example using the CSS border-style property:
+
+                Double-Border Example CSS Border-Style Property
+                Styling with the outline property
+                Next, let’s take a look at the outline property. Outlines and borders are similar, but outlines don’t
+                occupy any space because they are drawn outside of the element’s content. Also, borders offer more
+                styling options. For example, each border line may be styled with different colors of your choosing.
+
+                To achieve a double-border effect with the outline property, we need to use a single border and an
+                outline. However, unlike the border-style property, the outline property does not automatically create a
+                space between itself and the border. To add a space between the outline and the border, we’ll need to
+                use the outline-offset property</p>
+            <a href="/blog.html" class="btn-blog"><i class='bx bx-arrow-back'> Back</i></a>
+        </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <footer class="footer">
+        <div class="social-media">
+            <hr>
+            <a href="https://www.linkedin.com/in/rahmadi-fadillah-a73222222/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/rahmadi.fadillah/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/rahmadifadillah"><i class='bx bxl-github'></i></a>
+            <a href="https://www.youtube.com/@dealsmusik"><i class='bx bxl-youtube'></i></a>
+            <p>Copyright &copy; 2023 Rahmadi Fadillah || Software Engineer
+                <br>All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
